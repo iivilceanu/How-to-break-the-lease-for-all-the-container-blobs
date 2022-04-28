@@ -1,7 +1,7 @@
 # create a context 
 $Context = New-AzStorageContext -StorageAccountName "yourstorageaccount" -StorageAccountKey "yourstorageaccountkey"
 
-#set your container
+#set your container name
 $Container = "yourcontainername"
 
 #Get a reference to all the blobs in the container.
